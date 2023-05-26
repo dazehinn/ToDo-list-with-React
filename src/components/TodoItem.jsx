@@ -38,6 +38,7 @@ const TodoItem = ({ itemProp, handleChange, delTodo, setUpdate }
           <input
         type="checkbox"
         checked={itemProp.completed}
+        onChange={() => handleChange(itemProp.id)}
       />
           <span style={itemProp.completed ? completedStyle : null}>
               {itemProp.title}

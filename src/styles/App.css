@@ -15,7 +15,7 @@ body {
 
 .wrapper {
   width: 100%;
-  padding: 8rem 20px 3rem;
+  padding: 2rem 20px 3rem;
 }
 
 .todos {
@@ -65,4 +65,31 @@ body {
   color: red;
   margin-top: 5px;
   display: block;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Active route */
+.active {
+  color: #005bb3;
+  text-decoration: underline;
+}
+
+.linkk {
+  list-style-type: none;
+  display: inline;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.credit {
+  color: #005bb3;
+  text-decoration: underline;
+}
+
+.about {
+  margin-top: 5%;
 }
